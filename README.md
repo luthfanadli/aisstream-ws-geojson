@@ -31,3 +31,9 @@ Before running the application, make sure to set up your environment by installi
    ```
    node index.js
    ```
+
+5. **Testing the WebSocket with wscat**
+
+   ```
+   wscat -c ws://localhost:xxxx
+   ```
